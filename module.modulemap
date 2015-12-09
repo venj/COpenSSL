@@ -1,0 +1,5 @@
+module COpenSSL [system] {
+    header "/usr/include/openssl/md5.h"
+    link "crypto"
+    export *
+}
