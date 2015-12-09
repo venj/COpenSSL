@@ -5,6 +5,36 @@ OpenSSL module for Swift.
 
 Note: Currently only `md5.h` is included. If you want to add more header files, please fork this project for your needs. Or you can send a pull request.
 
+Usage
+-----
+
+1. Install libssl-dev:
+
+    ```
+    sudo apt-get install libssl-dev
+    ```
+
+2. Add dependency in your `Package.swift` file: 
+
+    ```swift
+    dependencies: [
+        .Package(url: "https://github.com/venj/COpenSSL.git", versions: Version(0,0,1) ..< Version(1,0,0)),
+    ]
+    ```
+
+3. In your code:
+
+    ```swift
+    import COpenSSL
+    ```
+
+4. Build your code:
+
+    ```
+    swift build
+    ```
+
+
 Versioning
 ----------
 
