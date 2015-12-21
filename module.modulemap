@@ -1,5 +1,7 @@
 module COpenSSL [system] {
+    header "/usr/include/openssl/md4.h"
     header "/usr/include/openssl/md5.h"
+    header "/usr/include/openssl/sha.h"
     link "crypto"
     export *
 }
