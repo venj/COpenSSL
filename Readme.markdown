@@ -3,7 +3,7 @@ COpenSSL
 
 OpenSSL module for Swift. 
 
-Note: Currently only `md5.h` is included. If you want to add more header files, please fork this project for your needs. Or you can send a pull request.
+Note: Currently only `md4.h`, `md5.h`, `sha.h` is included. If you want to add more header files, please fork this project for your needs. Or you can send a pull request.
 
 Usage
 -----
@@ -18,7 +18,7 @@ Usage
 
     ```swift
     dependencies: [
-        .Package(url: "https://github.com/venj/COpenSSL.git", versions: Version(0,0,1) ..< Version(1,0,0)),
+        .Package(url: "https://github.com/venj/COpenSSL.git", versions: Version(0,0,2) ..< Version(1,0,0)),
     ]
     ```
 
