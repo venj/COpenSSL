@@ -18,7 +18,7 @@ Usage
 
     ```swift
     dependencies: [
-        .Package(url: "https://github.com/venj/COpenSSL.git", versions: Version(0,0,2) ..< Version(1,0,0)),
+        .Package(url: "https://github.com/venj/COpenSSL.git", versions: Version(0,0,3) ..< Version(1,0,0)),
     ]
     ```
 
